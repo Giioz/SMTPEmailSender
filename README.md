@@ -27,7 +27,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/employee-management-system.git
+git clone https://github.com/Giioz/SMTPEmailSender.git
 cd employee-management-system
 Install Required Packages:
 
