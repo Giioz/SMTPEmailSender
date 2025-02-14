@@ -17,9 +17,9 @@ namespace ConsoleApp10.SMTP
             smtpClient.EnableSsl = true;
             smtpClient.UseDefaultCredentials = false;
 
-            smtpClient.Credentials = new NetworkCredential("mamaladzegio99@gmail.com", "dxbp dqwz uzyx vtjc");
+            smtpClient.Credentials = new NetworkCredential("yourgmail@gmail.com", "XXXX XXXX XXXX XXXX"); // update your SMTP Sender credentials to use
             MailMessage mailMessage = new MailMessage();
-            mailMessage.From = new MailAddress("mamaladzegio99@gmail.com");
+            mailMessage.From = new MailAddress("yourgmail@gmail.com"); // update you gmail
             mailMessage.To.Add(to);
             mailMessage.Subject = subject;
             mailMessage.Body = content;
